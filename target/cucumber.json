@@ -1,0 +1,263 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-18T00:33:54.056Z",
+        "line": 3,
+        "name": "User able login with valid credentials",
+        "description": "",
+        "id": "user-can-login-zoopla.com-verify-the-home-page;user-able-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user able to launch the chrome browser",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.user_able_to_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open URL",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.user_open_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User able to enter email as \"akbarkhandaudzai@gmail.com\" and passwrod as \"Abcd@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akbarkhandaudzai@gmail.com\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Abcd@1234\"",
+                  "offset": 73
+                }
+              ],
+              "location": "com.stepdefenation.StepDefination.user_able_to_enter_email_as_and_passwrod_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "page title should be",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.page_title_should_be()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on Log out link",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.user_click_on_log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Page logout  Title should be",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.page_logout_title_should_be()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close browser",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T00:33:54.103Z",
+        "line": 14,
+        "name": "User able login with valid credentials",
+        "description": "",
+        "id": "user-can-login-zoopla.com-verify-the-home-page;user-able-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user able to launch the chrome browser",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.user_able_to_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user open URL \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cURL\u003e\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.stepdefenation.StepDefination.user_open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User able to enter email as \"\u003cusername\u003e\" and pwd as \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.stepdefenation.StepDefination.user_able_to_enter_email_as_and_pwd_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on login",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "page title should be",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.page_title_should_be()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1005800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on Log out link",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.user_click_on_log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Page logout  Title should be",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.page_logout_title_should_be()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close browser",
+            "match": {
+              "location": "com.stepdefenation.StepDefination.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@newtest"
+          }
+        ]
+      }
+    ],
+    "name": "user can login zoopla.com,verify the home page",
+    "description": "",
+    "id": "user-can-login-zoopla.com-verify-the-home-page",
+    "keyword": "Feature",
+    "uri": "file:Feature/loigin.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
